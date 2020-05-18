@@ -84,5 +84,6 @@ public class Storage {
         }
 
         System.out.println("test");
+        System.out.println("test2");
     }
 }
