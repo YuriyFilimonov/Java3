@@ -3,17 +3,6 @@ package HW_4;
 public class ThreadABC extends Thread {
     private volatile char currentLetter = 'A';
 
-
-//    public ThreadABC() {
-//        start();
-//    }
-
-//    public void run() {
-//        symbolA();
-//        symbolB();
-//        symbolC();
-//    }
-
     public synchronized void symbolA() {
         try {
             for (int i = 0; i < 3; i++) {
